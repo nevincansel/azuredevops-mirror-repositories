@@ -1,0 +1,8 @@
+{
+    "name": "mirror-repos",
+    "version": "0.0.1",
+    "dependencies": {
+        "tfx-cli": "^0.11.0",
+        "vss-web-extension-sdk": "^5.141.0"
+    }
+}

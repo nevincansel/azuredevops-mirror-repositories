@@ -1,0 +1,21 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- none
+
+pool:
+  vmImage: windows-latest
+
+steps:
+
+- task: Mirror Repositories@1
+  inputs:
+    sourceType: true
+    sourceURL: 'https://github.com/nevincansel/mirror-repositories-test.git'
+    sourcePAT: '$(github_pat)'
+    destinationType: true
+    destinationURL: 'https://dev.azure.com/nevincansel5517/MyWorks/_git/mirror-test'
+    destinationPAT: '$(azure_pat)'
