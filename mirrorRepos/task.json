@@ -8,8 +8,8 @@
     "category": "Azure Pipelines",
     "version": {
         "Major": 1,
-        "Minor": 1,
-        "Patch": 8
+        "Minor": 2,
+        "Patch": 0
     },
     "visibility": [
         "Build"
