@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "mirror-repos",
     "name": "Mirror Repositories",
-    "version": "1.1.7",
+    "version": "1.1.8",
     "publisher": "NevinCansel",
     "public": true,
     "targets": [
